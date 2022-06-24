@@ -3,9 +3,9 @@ import { InserirSuperHeroi, buscarPorNome } from "../services/funcoes";
 import {Router} from 'express';
 const server = Router();
 
-server.post('/pet', async (req, resp) => {
+server.post('/heroi', async (req, resp) => {
     try{
-        const = novoheroi = req.body;
+        const novoheroi = req.body;
         if(!nomeheroi.nome)
             throw new error ('Nome do herói é obrigatório');
 

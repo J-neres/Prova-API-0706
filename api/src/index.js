@@ -8,7 +8,7 @@ const server = express();
 
 server.use(cors());
 server.use(express.json());
-server.use(funenpoints);
+server.use(funendpoints);
 
 server.listen(process.env.PORT,
-    ()=> console.log('API está conectada na porta ${process.env.PORT}'));
+    ()=> console.log(`API está conectada na porta ${process.env.PORT}`));
